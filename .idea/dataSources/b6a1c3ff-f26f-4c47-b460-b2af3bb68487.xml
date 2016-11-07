@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - test@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="test">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="dbms"/>
+    <schema id="3" name="information_schema"/>
+    <schema id="4" name="jedp"/>
+    <schema id="5" name="mysql"/>
+    <schema id="6" name="ooadp"/>
+    <schema id="7" name="performance_schema"/>
+    <schema id="8" name="sakila"/>
+    <schema id="9" name="sys"/>
+    <schema id="10" name="world"/>
+    <table id="11" parent="1" name="books"/>
+    <column id="12" parent="11" name="id">
+      <data-type>varchar(8)|0</data-type>
+    </column>
+    <column id="13" parent="11" name="surname">
+      <data-type>varchar(24)|0</data-type>
+    </column>
+    <column id="14" parent="11" name="first_name">
+      <data-type>varchar(24)|0</data-type>
+    </column>
+    <column id="15" parent="11" name="title">
+      <data-type>varchar(96)|0</data-type>
+    </column>
+    <column id="16" parent="11" name="price">
+      <data-type>float|0</data-type>
+    </column>
+    <column id="17" parent="11" name="onSale">
+      <data-type>smallint(6)|0</data-type>
+    </column>
+    <column id="18" parent="11" name="calendar_year">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="19" parent="11" name="description">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="20" parent="11" name="inventory">
+      <data-type>int(11)|0</data-type>
+    </column>
+  </database-model>
+</dataSource>
